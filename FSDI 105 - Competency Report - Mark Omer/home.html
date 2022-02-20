@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/mystyles.css">
+  <title>Document</title>
+</head>
+<body>
+  <header class="hdrContainer">
+    <h1 class="display-1">My Super Users Web Site</h1>
+  </header>
+  <nav>
+    <div>
+      <ul>
+        <li><a href="index.html">INDEX PAGE</a></li>
+        <li><a href="home.html">HOME</a></li>
+        <li><a href="register.html">REGISTER</a></li>
+      </ul>
+    </div>
+  </nav>
+  
+  <main class="mainContainer">
+    <!--table with the users-->
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Email:</th>
+          <th>Password:</th>
+          <th>First Name:</th>
+          <th>Last Name:</th>
+          <th>Age:</th>
+          <th>Address:</th>
+          <th>Phone Number:</th>
+          <th>Payment:</th>
+          <th>Color:</th>
+        </tr>
+        <tr>
+          <td>Email</td>
+          <td>Password</td>
+          <td>First</td>
+          <td>Last</td>
+          <td>Age</td>
+          <td>Address</td>
+          <td>Phone</td>
+          <td>Payment</td>
+          <td>Color</td>
+        </tr>
+      </thead>  
+      <tbody id="userList">
+
+
+      </tbody>
+      
+    </table>
+  </main>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="script/register.js"></script>
+  <script src="script/storeManager.js"></script>
+  <script src="script/list.js"></script>
+
+</body>
+</html>
